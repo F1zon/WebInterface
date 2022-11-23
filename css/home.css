@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    font-family: 'Roboto Slab', serif;
+    background: url(../image/fon.jpg);
+}
+
+
+.logo h1 {
+    position: absolute;
+    width: 595px;
+    height: 135px;
+    left: 663px;
+    top: 40%;
+    
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 127px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo h3 {
+    position: absolute;
+    width: 500px;
+    height: 118px;
+    left: 692px;
+    top: 60%;
+    
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    
+    color: #C6C0C0;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.logoPhoto {
+    position: absolute;
+    width: 504px;
+    height: 604px;
+    left: 700px;
+    top: 20%;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+.link {
+    position: absolute;
+    width: 990px;
+    height: 47px;
+    left: 38px;
+    top: 27px;
+}
+
+.link a {
+    margin-left: 47px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+#reg {
+    /* Frame 14 */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 27px;
+    gap: 10px;
+
+    position: absolute;
+    width: 295px;
+    height: 60px;
+    left: 83%;
+    top: 34px;
+    color: #FFFFFF;
+    font-size: 190%;
+    text-decoration: none;
+
+    mix-blend-mode: normal;
+    border: 3px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+#sigin {
+    /* Frame 15 */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 27px;
+    gap: 10px;
+
+    position: absolute;
+    width: 143px;
+    height: 60px;
+    left: 73%;
+    top: 34px;
+    color: #FFFFFF;
+    font-size: 190%;
+    text-decoration: none;
+
+    mix-blend-mode: normal;
+    border: 3px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+
+
+.teh {
+    position: absolute;
+    width: 68px;
+    height: 64px;
+    left: 95%;
+    top: 90%;
+    border-radius: 45px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.teh img {
+    margin-left: 15%;
+    margin-top: 12%;
+}
